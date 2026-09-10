@@ -1,0 +1,12 @@
+{
+  "name": "startup-product-suite",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev:flowboard": "npm --prefix apps/flowboard run dev",
+    "dev:northstar": "npm --prefix apps/northstar run dev",
+    "dev:replyai": "npm --prefix apps/replyai run dev",
+    "build": "npm --prefix apps/flowboard run build && npm --prefix apps/northstar run build && npm --prefix apps/replyai run build"
+  }
+}
