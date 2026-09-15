@@ -70,7 +70,3 @@ The three clients are separate Vercel projects connected to the corresponding ap
 - `apps/replyai`
 
 Vercel detects Vite and the `api/` serverless functions automatically.
-
-## Portfolio scope
-
-My contribution covers product framing, information architecture, interaction design, visual design and frontend/backend implementation. The business metrics and customer records are demonstration data, not claimed production outcomes. See each app's `CASE_STUDY.md` for the reasoning behind its workflow.
